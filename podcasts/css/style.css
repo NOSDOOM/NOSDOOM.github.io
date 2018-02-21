@@ -2,7 +2,7 @@
   display: inline-block;
   border: solid 1px #CCC;
   margin: 10px;
-  padding: 10px;
+  padding-top: 10px;
   width: 200px;
   border-radius: 10px;
   vertical-align: top;
@@ -15,6 +15,7 @@
 }
 #output img {
   width: 200px;
+	margin-bottom:-7px;
 }
 
 /* Imported Fonts */
@@ -74,13 +75,8 @@ p.time { color:#bbb; font-size:.85em; }
 #codrops a:hover { text-decoration:underline; }
 
 audio::-webkit-media-controls-panel {
-  background-color:#FFFFFF;
+  background-color:#ecf0f1;
   border-radius:8px;
-  width:400px;
-}
-
-audio::-webkit-media-controls-timeline-container {
-  background-color:green;
 }
 
 #term{
