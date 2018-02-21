@@ -1,0 +1,96 @@
+#output div {
+  display: inline-block;
+  border: solid 1px #CCC;
+  margin: 10px;
+  padding: 10px;
+  width: 200px;
+  border-radius: 10px;
+  vertical-align: top;
+	text-align:center;
+	font-size:18px;
+	font-weight:bold;
+	white-space: nowrap;
+  overflow: hidden;
+	text-overflow: ellipsis;
+}
+#output img {
+  width: 200px;
+}
+
+/* Imported Fonts */
+
+@import url("//fonts.googleapis.com/css?family=Noto+Sans");
+
+
+/* RSS Icons */
+
+[data-glyph="rss-alt"]::before {
+color:#fff;
+font-size:2em;
+height:1em;
+left:0;
+margin:-5px 0 0 30px;
+padding:10px;
+position:absolute;
+}
+
+#codrops [data-glyph="rss-alt"]::before { background-color:#0099cc; }
+
+
+/* Global Styles */
+
+html,body {
+background-color:#222;
+color:#fff;
+font-family:"Noto Sans", sans-serif;
+font-size:1em;
+font-weight:400;
+line-height:1.45;
+}
+
+*,*:focus { outline:none; }
+
+
+/* Feed Styles */
+
+.entry { padding:30px; }
+.entry:nth-of-type(odd) { background-color:rgba(0,0,0,.1); }
+.entry:nth-of-type(even) { background-color:rgba(0,0,0,.2); }
+
+h1,h3 {
+font-weight:inherit;
+line-height:1.2;
+margin-bottom:.5em;
+}
+
+h1.feed { font-size:2.441em; margin:60px 30px 30px 100px; }
+h3.title { font-size:1.563em; }
+
+p { margin-bottom:1.3em; }
+p:last-child { margin-bottom:0; }
+p.time { color:#bbb; font-size:.85em; }
+
+#codrops a { color:#0099cc; text-decoration:none; }
+#codrops a:hover { text-decoration:underline; }
+
+audio::-webkit-media-controls-panel {
+  background-color:#FFFFFF;
+  border-radius:8px;
+  width:400px;
+}
+
+audio::-webkit-media-controls-timeline-container {
+  background-color:green;
+}
+
+#term{
+	width:15%;
+	margin-left:2%;
+	text-align:center;
+	color:#ffffff;
+}
+
+#term:focus{
+	color:#2BBBAD;
+}
+
