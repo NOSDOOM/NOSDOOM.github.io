@@ -73,16 +73,6 @@ p.time { color:#bbb; font-size:.85em; }
 #codrops a { color:#0099cc; text-decoration:none; }
 #codrops a:hover { text-decoration:underline; }
 
-audio::-webkit-media-controls-panel {
-  background-color:#FFFFFF;
-  border-radius:8px;
-  width:400px;
-}
-
-audio::-webkit-media-controls-timeline-container {
-  background-color:green;
-}
-
 #term{
 	width:15%;
 	margin-left:2%;
