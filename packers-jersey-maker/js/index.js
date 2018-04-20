@@ -34,3 +34,9 @@ ctx.lineWidth = 14;
 ctx.textAlign = "center";
 ctx.fillText(name, 375, 890);
 }
+
+var saveButton = document.getElementById('save');
+save.onclick = function(e) {
+   var dataUrl = canvas.toDataURL('image/png');
+   save.href = dataUrl;
+};
