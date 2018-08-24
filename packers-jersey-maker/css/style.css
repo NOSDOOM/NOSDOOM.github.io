@@ -2,7 +2,7 @@
 font-family: 'College Condensed';
 font-style: normal;
 font-weight: normal;
-src: url('../../fonts/COLLEGEC.ttf');
+src: url('https://cdn.rawgit.com/NOSDOOM/picturehost/9d71e1e1/font/COLLEGEC.ttf');
 }
 
 
@@ -10,7 +10,7 @@ src: url('../../fonts/COLLEGEC.ttf');
 font-family: 'College Semi condensed';
 font-style: normal;
 font-weight: normal;
-src: url('../../fonts/COLLEGES.ttf');
+src: url('https://cdn.rawgit.com/NOSDOOM/picturehost/9d71e1e1/font/COLLEGES.ttf');
 }
 
 
@@ -18,7 +18,7 @@ src: url('../../fonts/COLLEGES.ttf');
 font-family: 'College';
 font-style: normal;
 font-weight: normal;
-src: url('../../fonts/COLLEGE.ttf');
+src: url('https://cdn.rawgit.com/NOSDOOM/picturehost/9d71e1e1/font/COLLEGE.ttf');
 }
 
 
@@ -26,14 +26,14 @@ src: url('../../fonts/COLLEGE.ttf');
 font-family: 'College Bold';
 font-style: normal;
 font-weight: normal;
-src: url('../../fonts/COLLEGEB.ttf');
+src: url('https://cdn.rawgit.com/NOSDOOM/picturehost/9d71e1e1/font/COLLEGEB.ttf');
 }
 
 @font-face {
 font-family: 'Packers';
 font-style: normal;
 font-weight: normal;
-src: url('../../fonts/SportsJersey.ttf');
+src: url('https://cdn.rawgit.com/NOSDOOM/picturehost/893e0831/font/JerseyM542.ttf');
 }
 
 body {
@@ -64,18 +64,4 @@ h2 {
 
 a {
 	color:#3498db;
-}
-
-#save:link, #save:visited {
-    background-color: #4285f4;
-    color: white;
-    padding: 14px 25px;
-	border-radius:5px;
-    text-align: center; 
-    text-decoration: none;
-    display: inline-block;
-}
-
-#save:hover, #save:active {
-    background-color: #00bad2;
 }
