@@ -22,7 +22,7 @@ ctx.strokeRect(50, 195, 650, 195);
 var name = document.getElementById('firstname').value.toUpperCase();
 ctx.fillStyle = '#FFFFFF';
 
-ctx.font = '267.5px Packers';
+ctx.font = '233px Packers';
 ctx.textAlign = "center";
 ctx.fillText(name, 375, 382, 600);
 	
@@ -34,9 +34,3 @@ ctx.lineWidth = 14;
 ctx.textAlign = "center";
 ctx.fillText(name, 375, 890);
 }
-
-var saveButton = document.getElementById('save');
-save.onclick = function(e) {
-   var dataUrl = canvas.toDataURL('image/png');
-   save.href = dataUrl;
-};
