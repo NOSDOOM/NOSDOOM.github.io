@@ -9,7 +9,7 @@ $(document).ready(function() {
     );
     var geocoder = new google.maps.Geocoder();
     geocoder.geocode({ location: latlng }, function(result) {
-      //console.log(result[0].types[route])
+      console.log(result)
       cityname = result[4].formatted_address;
       document.getElementById("city").innerHTML = cityname;
     });
