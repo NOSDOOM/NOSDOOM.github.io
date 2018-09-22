@@ -11,7 +11,6 @@ $(document).ready(function() {
     geocoder.geocode({ location: latlng }, function(result) {
       console.log(result)
       cityname = result[4].formatted_address;
-      document.getElementById("city").innerHTML = cityname;
     });
   });
   setInterval(getWeather, 600000);
