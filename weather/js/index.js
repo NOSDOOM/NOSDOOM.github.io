@@ -24,7 +24,7 @@ var options = {
 var mcloc = new google.maps.places.Autocomplete(input, options);
 function loadWeather() {
   var place = mcloc.getPlace();
-  cityname = place.formatted_address;
+  cityname = place;
   latitude = place.geometry.location.lat();
   longitude = place.geometry.location.lng();
   document.getElementById("city").innerHTML = cityname;
