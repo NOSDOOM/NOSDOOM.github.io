@@ -9,7 +9,9 @@ $(document).ready(function() {
     );
     var geocoder = new google.maps.Geocoder();
     geocoder.geocode({ location: latlng }, function(result) {
-      console.log(result)
+      //console.log(result[0].types[route])
+      cityname = result[4].formatted_address;
+      document.getElementById("city").innerHTML = cityname;
     });
   });
   setInterval(getWeather, 600000);
@@ -22,7 +24,7 @@ var options = {
 var mcloc = new google.maps.places.Autocomplete(input, options);
 function loadWeather() {
   var place = mcloc.getPlace();
-  cityname = place;
+  cityname = place.formatted_address;
   latitude = place.geometry.location.lat();
   longitude = place.geometry.location.lng();
   document.getElementById("city").innerHTML = cityname;
