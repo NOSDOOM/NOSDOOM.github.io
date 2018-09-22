@@ -10,7 +10,6 @@ $(document).ready(function() {
     var geocoder = new google.maps.Geocoder();
     geocoder.geocode({ location: latlng }, function(result) {
       console.log(result)
-      cityname = result[4].formatted_address;
     });
   });
   setInterval(getWeather, 600000);
