@@ -2,7 +2,7 @@
 font-family: 'College Condensed';
 font-style: normal;
 font-weight: normal;
-src: url('https://cdn.rawgit.com/NOSDOOM/picturehost/9d71e1e1/font/COLLEGEC.ttf');
+src: url('../../fonts/COLLEGEC.ttf');
 }
 
 
@@ -10,7 +10,7 @@ src: url('https://cdn.rawgit.com/NOSDOOM/picturehost/9d71e1e1/font/COLLEGEC.ttf'
 font-family: 'College Semi condensed';
 font-style: normal;
 font-weight: normal;
-src: url('https://cdn.rawgit.com/NOSDOOM/picturehost/9d71e1e1/font/COLLEGES.ttf');
+src: url('../../fonts/COLLEGES.ttf');
 }
 
 
@@ -18,7 +18,7 @@ src: url('https://cdn.rawgit.com/NOSDOOM/picturehost/9d71e1e1/font/COLLEGES.ttf'
 font-family: 'College';
 font-style: normal;
 font-weight: normal;
-src: url('https://cdn.rawgit.com/NOSDOOM/picturehost/9d71e1e1/font/COLLEGE.ttf');
+src: url('../../fonts/COLLEGE.ttf');
 }
 
 
@@ -26,14 +26,14 @@ src: url('https://cdn.rawgit.com/NOSDOOM/picturehost/9d71e1e1/font/COLLEGE.ttf')
 font-family: 'College Bold';
 font-style: normal;
 font-weight: normal;
-src: url('https://cdn.rawgit.com/NOSDOOM/picturehost/9d71e1e1/font/COLLEGEB.ttf');
+src: url('../../fonts/COLLEGEB.ttf');
 }
 
 @font-face {
 font-family: 'Packers';
 font-style: normal;
 font-weight: normal;
-src: url('https://cdn.rawgit.com/NOSDOOM/picturehost/893e0831/font/JerseyM542.ttf');
+src: url('../../fonts/JerseyM542.ttf');
 }
 
 body {
