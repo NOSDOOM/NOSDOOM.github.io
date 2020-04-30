@@ -1,0 +1,29 @@
+body {
+	font-family: Roboto;
+	background-color: #313131;
+	color: #ECF0F1;
+}
+
+.nav-wrapper{
+	background-color: #00b8ff;
+}
+
+a.brand-logo {
+	color: #ECF0F1;
+}
+
+h2 {
+	color: #0093cc;
+	text-align: center;
+}
+
+.ruleinfo {
+	font-size: 24px;
+	text-align: center;
+	margin-left:5%;
+	margin-right:5%;
+}
+
+.bottomspacer {
+	padding-top:2%;
+}
