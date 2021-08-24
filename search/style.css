@@ -89,7 +89,7 @@ body {
   cursor: pointer;
 }
 
-.autocomplete-content {
+.autocomplete-content{
   list-style: none;
   display: none;
   background-color: #191a1c;
