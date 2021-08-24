@@ -94,6 +94,7 @@ body {
   display: none;
   background-color: #191a1c;
   color: #ecf0f1;
+  margin-top: 0;
 }
 
 .dropdown-content {
