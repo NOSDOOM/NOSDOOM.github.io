@@ -114,6 +114,10 @@ body {
   display: table;
 }
 
+.searchResultContent:first-of-type {
+  border-bottom: 1px solid #313337;
+}
+
 .searchResultContent:last-of-type {
   border: none;
 }
