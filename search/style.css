@@ -110,4 +110,17 @@ body {
 
 .searchResultContent:hover {
   background-color: #292b2e;
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.li img {
+  float: left;
+}
+
+.title {
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
 }
