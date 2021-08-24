@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Recommendations</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+    <h1 id="headerTitle">Recommendation Search</h1>
+    <div id="searchWrapper">
+        <div id="searchBarMain">
+            <i class="material-icons searchBarSearchIcon noUserSelect">search</i>
+            <input type="text" name="header-search" value="" id="searchBarInput" placeholder="Search">
+            <i class="material-icons clearSearchBarField noUserSelect" onclick="resetInput()">clear</i>
+        </div>
+    </div>
+    <div id="recommendationList">
+
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
