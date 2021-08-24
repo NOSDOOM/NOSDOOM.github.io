@@ -106,13 +106,13 @@ body {
 .searchResultContent {
   border-bottom: 1px solid #313337;
   color: #ecf0f1;
+  content: "";
+  clear: both;
+  display: table;
 }
 
 .searchResultContent:hover {
   background-color: #292b2e;
-  content: "";
-  clear: both;
-  display: table;
 }
 
 .li img {
