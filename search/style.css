@@ -115,7 +115,7 @@ body {
 }
 
 .searchResultContent:first-of-type {
-  border-bottom: 1px solid #313337;
+  border-top: 1px solid #313337;
 }
 
 .searchResultContent:last-of-type {
