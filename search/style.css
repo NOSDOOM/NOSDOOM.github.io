@@ -89,7 +89,7 @@ body {
   cursor: pointer;
 }
 
-.autocomplete-content{
+.autocomplete-content {
   list-style: none;
   display: none;
   background-color: #191a1c;
@@ -101,4 +101,13 @@ body {
   line-height: 1.15;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14),
     0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.searchResultContent {
+  border-bottom: 1px solid #313337;
+  color: #ecf0f1;
+}
+
+.searchResultContent:hover {
+  background-color: #292b2e;
 }
