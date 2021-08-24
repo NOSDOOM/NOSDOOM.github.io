@@ -112,11 +112,15 @@ body {
   display: table;
 }
 
+.searchResultContent:last-of-type {
+  border: none;
+}
+
 .searchResultContent:hover {
   background-color: #292b2e;
 }
 
-.li img {
+.searchResultContent img {
   float: left;
 }
 
