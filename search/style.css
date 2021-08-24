@@ -112,8 +112,6 @@ body {
   content: "";
   clear: both;
   display: table;
-  padding-top:10px;
-  padding-bottom:10px;
 }
 
 .searchResultContent:last-of-type {
