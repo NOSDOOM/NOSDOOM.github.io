@@ -103,17 +103,29 @@
       position: absolute;
 
     }
+
+    .wrapper {
+      width: 346px;
+    }
+
+    .centered {
+      margin: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
   </style>
 </head>
 
 <body>
-  <!-- partial:index.partial.html -->
-  <label class="button blue">
-    Browse...
-    <input id="filePick" type="file" id="avatar" name="avatar" accept="image/svg+xml">
-  </label>
-  <div id="fileSelected">No File Selected.</div>
-  <!-- partial -->
+  <div class="wrapper centered">
+    <label class="button blue">
+      Browse...
+      <input id="filePick" type="file" id="avatar" name="avatar" accept="image/svg+xml">
+    </label>
+    <div id="fileSelected">No File Selected.</div>
+  </div>
   <script>
     var imgUpload = document.getElementById("filePick");
     imgUpload.addEventListener("change", handleImage, false);
